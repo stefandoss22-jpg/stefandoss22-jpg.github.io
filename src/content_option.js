@@ -91,7 +91,7 @@ const dataportfolio = [
     {
       img: "https://www.itarian.com/images/ticketing-system/zendesk-ticketing-system.png?w=400&h=400&fit=crop",
       description: "Zendesk IT Service Desk Simulation – Built ticket workflows integrated with Active Directory for password resets and account management.",
-      link: "#"
+      link: "/projects/zendesk-ticketing-lab" 
     },
     {
       img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop",
