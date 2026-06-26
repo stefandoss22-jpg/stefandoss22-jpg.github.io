@@ -89,26 +89,16 @@ const services = [
 
 const dataportfolio = [
     {
-        img: "https://images.unsplash.com/photo-1454165804603-c3d57bc86b40?w=400&h=400&fit=crop",
-        description: "Field Operations Compliance System — Standardized compliance checklists and audit documentation for distributed field teams, improving review consistency and audit readiness.",
-        link: "#",
+      img: "https://www.itarian.com/images/ticketing-system/zendesk-ticketing-system.png?w=400&h=400&fit=crop",
+      description: "Zendesk IT Service Desk Simulation – Built ticket workflows integrated with Active Directory for password resets and account management.",
+      link: "#"
     },
     {
-        img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=400&h=600&fit=crop",
-        description: "Network & Security Home Lab — Hands-on environment for CompTIA Network+ and Security+ practice, including VLAN setup, firewall configuration, and vulnerability testing.",
-        link: "#",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=400&fit=crop",
-        description: "ITIL-Aligned Incident Response Guide — Tiered escalation playbook with root-cause tracking and resolution templates for faster, repeatable incident handling.",
-        link: "#",
-    },
-    {
-        img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop",
-        description: "Personal Portfolio Website — React portfolio highlighting IT experience, certifications, and full stack development goals with responsive, modern design.",
-        link: "https://stefandoss22-jpg.github.io",
-    },
-];
+      img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop",
+      description: "Enterprise Active Directory Home Lab – Deployed a full Windows Server Domain Controller environment with AD DS, DNS, user provisioning, and security group management.",
+      link: "/projects/active-directory-lab"
+    }
+  ];
 
 const contactConfig = {
     YOUR_EMAIL: "stefandoss22@gmail.com",
