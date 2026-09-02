@@ -1,4 +1,7 @@
+import headshot from "./assets/images/headshot.png";
+
 const logotext = "STEFAN";
+
 const meta = {
     title: "Stefan Doss-McClendon",
     description: "IT Professional | CompTIA Certified | Aspiring Full Stack Developer — Indianapolis, IN",
@@ -12,13 +15,14 @@ const introdata = {
         third: "I'm the guy who makes tech behave and users smile",
     },
     description: "Service Desk Superhero | CompTIA Certified | Turn tech headaches into tech wins",
-    your_img_url: "https://6a34cb3e495f432db76d3226.imgix.net/IMG_5158.JPG",
+    your_img_url: headshot,
 };
 
 const dataabout = {
     title: "About Me",
     aboutme: "IT professional with strong experience in operations, compliance, technical support, and process improvement. Recently completed a Bachelor of Science in Information Technology. Passionate about technology, problem-solving, and delivering reliable IT solutions. Based in Indianapolis, IN, with CompTIA A+, Network+, Security+, and ITIL 4 Foundation certifications.",
 };
+
 const worktimeline = [
     {
         jobtitle: "Senior Field Operations & Compliance Specialist",
@@ -38,34 +42,13 @@ const worktimeline = [
 ];
 
 const skills = [
-    {
-        name: "IT Operations",
-        value: 90,
-    },
-    {
-        name: "Technical Support",
-        value: 92,
-    },
-    {
-        name: "Compliance & Documentation",
-        value: 88,
-    },
-    {
-        name: "Incident Management",
-        value: 90,
-    },
-    {
-        name: "CompTIA A+ Network+ Security+",
-        value: 85,
-    },
-    {
-        name: "ITIL 4",
-        value: 82,
-    },
-    {
-        name: "Training & Leadership",
-        value: 87,
-    },
+    { name: "IT Operations", value: 90 },
+    { name: "Technical Support", value: 92 },
+    { name: "Compliance & Documentation", value: 88 },
+    { name: "Incident Management", value: 90 },
+    { name: "CompTIA A+ Network+ Security+", value: 85 },
+    { name: "ITIL 4", value: 82 },
+    { name: "Training & Leadership", value: 87 },
 ];
 
 const services = [
@@ -89,23 +72,21 @@ const services = [
 
 const dataportfolio = [
     {
-      img: "https://www.itarian.com/images/ticketing-system/zendesk-ticketing-system.png?w=400&h=400&fit=crop",
-      description: "Zendesk IT Service Desk Simulation – Built ticket workflows integrated with Active Directory for password resets and account management.",
-      link: "/projects/zendesk-ticketing-lab" 
+        img: "https://www.itarian.com/images/ticketing-system/zendesk-ticketing-system.png?w=400&h=400&fit=crop",
+        description: "Zendesk IT Service Desk Simulation – Built ticket workflows integrated with Active Directory for password resets and account management.",
+        link: "/projects/zendesk-ticketing-lab" 
     },
     {
-      img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop",
-      description: "Enterprise Active Directory Home Lab – Deployed a full Windows Server Domain Controller environment with AD DS, DNS, user provisioning, and security group management.",
-      link: "/projects/active-directory-lab"
+        img: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=400&fit=crop",
+        description: "Enterprise Active Directory Home Lab – Deployed a full Windows Server Domain Controller environment with AD DS, DNS, user provisioning, and security group management.",
+        link: "/projects/active-directory-lab"
     }
-  ];
+];
 
 const contactConfig = {
     YOUR_EMAIL: "stefandoss22@gmail.com",
     YOUR_FONE: "(317) 914-7175",
     description: "Based in Indianapolis, IN. Open to IT roles, technical support opportunities, and full stack development projects. Send a message and I will get back to you promptly.",
-    // creat an emailjs.com account
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
@@ -118,8 +99,7 @@ const socialprofils = {
     twitter: "#",
 };
 
-const resumeLink =
-    "https://docs.google.com/document/d/1G53k4c0DUMI6FZMaVzVkFmBwS9upGUMc/edit?usp=sharing&ouid=105225628214393904732&rtpof=true&sd=true";
+const resumeLink = "https://docs.google.com/document/d/1G53k4c0DUMI6FZMaVzVkFmBwS9upGUMc/edit?usp=sharing&ouid=105225628214393904732&rtpof=true&sd=true";
 
 export {
     meta,
